@@ -705,6 +705,7 @@ Se implementó un planificador de actividades en C que permite ejecutar procesos
 
 El programa utiliza `fork()`, `waitpid()` y `pipe()` para crear, controlar y comunicar los procesos. También se implementó la detección de ciclos, el manejo de fallas, la cancelación de actividades dependientes y la interrupción mediante `Ctrl+C`.
 
+
 Se realizaron pruebas con ejecuciones normales, `K = 1`, `K = 2`, fallas, ciclos y cancelaciones. También se probaron planes de 2.000 y 10.000 actividades, logrando completar todas las actividades del archivo.
 
 Con las pruebas realizadas se comprobó que el programa funciona correctamente con distintos escenarios y mantiene las dependencias y el límite de procesos establecido.

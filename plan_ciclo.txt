@@ -1,0 +1,3 @@
+A1 : actividad_A : 1000 : B2
+B2 : actividad_B : 1000 : C3
+C3 : actividad_C : 1000 : A1

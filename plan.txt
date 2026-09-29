@@ -1,0 +1,7 @@
+1 : prender_carbon : 5 :
+2 : comprar_carne : 3 :
+3 : comprar_pan : 2 :
+4 : asar_longaniza : 4 : 1, 2
+5 : armar_choripan : 3 : 3, 4
+6 : servir_mesa : 2 : 5
+	
